@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVERVIA - Travel & Mobility Partner</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f6;
+      color: #26352f;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #075b46;
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 5px;
+    }
+
+    header p {
+      color: #e8d4a8;
+      margin-bottom: 0;
+    }
+
+    nav {
+      background: #064635;
+      padding: 14px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 20px 15px;
+    }
+
+    section {
+      background: white;
+      padding: 24px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #075b46;
+    }
+
+    .service {
+      border-bottom: 1px solid #e5eae7;
+      padding: 12px 0;
+    }
+
+    .service:last-child {
+      border-bottom: none;
+    }
+
+    label {
+      display: block;
+      margin-top: 14px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      border: 1px solid #ccd5d0;
+      border-radius: 7px;
+      font-size: 16px;
+      background: white;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 20px;
+      background: #087f5b;
+      color: white;
+      border: none;
+      border-radius: 7px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #075b46;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>EVERVIA</h1>
+    <p>Every Journey, A New Story.</p>
+    <p>Your Travel & Mobility Partner in Indonesia.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#market">Our Clients</a>
+    <a href="#booking">Booking</a>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>Welcome to EVERVIA</h2>
+
+      <p>
+        EVERVIA adalah partner perjalanan dan
+        transportasi yang membantu Anda menjelajahi
+        Indonesia dengan nyaman, fleksibel, dan personal.
+      </p>
+
+      <p>
+        From personal holidays to business travel,
+        we create journeys that fit your needs.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+
+      <div class="service">
+        <h3>Private Trip & Tour</h3>
+        <p>Perjalanan pribadi untuk individu, pasangan, keluarga, dan kelompok.</p>
+      </div>
+
+      <div class="service">
+        <h3>Indonesia Travel Experience</h3>
+        <p>Membantu wisatawan asing menjelajahi destinasi dan budaya Indonesia.</p>
+      </div>
+
+      <div class="service">
+        <h3>Transportation Service</h3>
+        <p>Transportasi dan sewa kendaraan untuk wisata maupun perjalanan bisnis.</p>
+      </div>
+
+      <div class="service">
+        <h3>Travel Documentation</h3>
+        <p>Layanan dokumentasi foto dan video untuk traveler dan content creator.</p>
+      </div>
+
+      <div class="service">
+        <h3>Corporate Travel & Outing</h3>
+        <p>Transportasi, outing perusahaan, dan perjalanan kelompok.</p>
+      </div>
+
+      <div class="service">
+        <h3>Custom Travel Arrangement</h3>
+        <p>Perjalanan khusus berdasarkan tujuan, waktu, dan anggaran pelanggan.</p>
+      </div>
+    </section>
+
+    <section id="market">
+      <h2>Who We Serve</h2>
+
+      <ul>
+        <li>Wisatawan lokal yang membutuhkan private trip.</li>
+        <li>Wisatawan asing yang ingin menjelajahi Indonesia.</li>
+        <li>Pasangan dan keluarga.</li>
+        <li>Content creator dan traveler.</li>
+        <li>Perusahaan dan kelompok bisnis.</li>
+        <li>Hotel dan agen perjalanan.</li>
+      </ul>
+
+      <h3>Business Partnership</h3>
+      <p>
+        Kami terbuka untuk kerja sama dengan hotel,
+        travel agent, tour operator, perusahaan,
+        dan mitra perjalanan lainnya.
+      </p>
+    </section>
+
+    <section id="booking">
+      <h2>Plan Your Journey</h2>
+
+      <p>
+        Isi formulir berikut untuk menghubungi tim EVERVIA.
+      </p>
+
+      <form id="bookingForm">
+
+        <label for="nama">Nama lengkap</label>
+        <input id="nama" required placeholder="Nama Anda">
+
+        <label for="nomor">Nomor WhatsApp</label>
+        <input id="nomor" type="tel" required placeholder="08xxxxxxxxxx">
+
+        <label for="layanan">Pilih layanan</label>
+        <select id="layanan" required>
+          <option value="">Pilih layanan</option>
+          <option>Private Trip & Tour</option>
+          <option>Indonesia Travel Experience</option>
+          <option>Transportation Service</option>
+          <option>Travel Documentation</option>
+          <option>Corporate Travel & Outing</option>
+          <option>Custom Travel Arrangement</option>
+          <option>Hotel / Travel Partnership</option>
+        </select>
+
+        <label for="asal">Lokasi penjemputan</label>
+        <select id="asal" required>
+          <option value="">Pilih lokasi</option>
+          <option>Gresik</option>
+          <option>Surabaya</option>
+          <option>Sidoarjo</option>
+          <option>Malang</option>
+          <option>Yogyakarta</option>
+          <option>Bali</option>
+          <option>Searah Destinasi</option>
+          <option>Lokasi Lainnya</option>
+        </select>
+
+        <label for="tujuan">Tujuan perjalanan</label>
+        <input id="tujuan" required placeholder="Contoh: Bromo, Bali">
+
+        <label for="tanggal">Tanggal perjalanan</label>
+        <input id="tanggal" type="date" required>
+
+        <label for="jumlah">Jumlah peserta</label>
+        <input id="jumlah" type="number" min="1" required placeholder="Jumlah orang">
+
+        <label for="catatan">Catatan tambahan</label>
+        <textarea id="catatan" rows="4"
+          placeholder="Ceritakan kebutuhan perjalanan atau kerja sama Anda"></textarea>
+
+        <button type="submit">
+          Hubungi EVERVIA melalui WhatsApp
+        </button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <h3>EVERVIA</h3>
+    <p>Every Journey, A New Story.</p>
+    <p>© 2026 EVERVIA. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("bookingForm")
+      .addEventListener("submit", function(e) {
+
+      e.preventDefault();
+
+      const nomorWhatsApp = "6281615970761";
+
+      const ambil = id =>
+        document.getElementById(id).value;
+
+      const pesan = [
+        "Halo EVERVIA, saya ingin bertanya tentang layanan.",
+        "",
+        "Nama: " + ambil("nama"),
+        "WhatsApp: " + ambil("nomor"),
+        "Layanan: " + ambil("layanan"),
+        "Penjemputan: " + ambil("asal"),
+        "Tujuan: " + ambil("tujuan"),
+        "Tanggal: " + ambil("tanggal"),
+        "Jumlah peserta: " + ambil("jumlah"),
+        "Catatan: " + ambil("catatan")
+      ].join("\n");
+
+      const url =
+        "https://wa.me/" + nomorWhatsApp +
+        "?text=" + encodeURIComponent(pesan);
+
+      window.open(url, "_blank");
+    });
+
+  </script>
+
+</body>
+</html>
+
